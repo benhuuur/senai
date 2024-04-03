@@ -1,0 +1,55 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#conf {
+    visibility: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.mycontainer {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light button {
+    background-color: rgb(68, 64, 64);
+    color: white;
+}
+
+.tabela {
+    gap: 15px;
+}
+
+.send-button {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.send-button button{
+    margin-right: 207px;
+}
