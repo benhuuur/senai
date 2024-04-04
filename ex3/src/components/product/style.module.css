@@ -1,0 +1,21 @@
+.body{
+    background-color: rgb(105, 105, 105);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    /* height: 400px; */
+    padding: 15px;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.body img {
+    object-fit: cover;
+    /* height: 50%; */
+    border-radius: 10px;
+    margin: 10px;
+}
