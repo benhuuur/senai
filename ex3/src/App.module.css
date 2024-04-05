@@ -6,6 +6,14 @@
   justify-content: center;
   gap: 1vw;
   position: fixed;
+  z-index: 1;
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .title{
+    visibility: hidden;
+  }
 }
 
 .wrapPage {
@@ -26,4 +34,13 @@
   flex-direction: row;
   gap: 10px;
   /* justify-content: center; */
+}
+
+.input{
+  margin-right: 10px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+  font-size: medium;
+  padding-left: 10px; 
 }

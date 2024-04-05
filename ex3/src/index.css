@@ -27,6 +27,9 @@ button {
   padding: 10px 50px;
   opacity: 0.8;
   border: none;
+  border-radius: 5px;
+  font-size: large;
+  box-shadow: rgba(238, 232, 232, 0.24) 0px 7px 29px 0px;
 }
 
 button:hover {

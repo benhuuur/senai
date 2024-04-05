@@ -10,7 +10,9 @@ export const Product = ({ name, desc, value, image, status }) => {
       </div>
       <h2>{desc}</h2>
       <p>{value} R$</p>
-      <img src={image} alt={name} width={150} height={"auto"} />
+      <div className={style.image}>
+        <img src={image} alt={name} width={150} height={"auto"} />
+      </div>
     </div>
   )
 }

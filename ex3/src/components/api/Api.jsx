@@ -16,17 +16,17 @@ export const Api = ({ name, status, species, type, gender, image }) => {
   }
 
   return (
-    <Draggable>
+    // <Draggable>
       <div className={style.body}>
         <h1>{name}</h1>
         <h2>{status}</h2>
         <p>{species}</p>
         <p>{type}</p>
         <p>{gender}</p>
-        <Tilt options={defaultOptions} style={{ height: "auto", width: "auto" }}>
+        <Tilt options={defaultOptions} style={{ height: "auto", width: "auto"}}>
           <img src={image} alt={name} width={150} height={"auto"} />
         </Tilt>
       </div>
-    </Draggable>
+    // </Draggable>
   )
 }

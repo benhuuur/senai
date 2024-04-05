@@ -1,12 +1,14 @@
 .true {
-    background: green;
+    background: rgb(4, 172, 4);
     border-radius: 50%;
-    width: 50px !important;
-    height: 50px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    width: 35px !important;
+    height: 35px !important;
 }
 .false {
     background: red;
     border-radius: 50%;
-    width: 50px !important;
-    height: 50px !important;
+    width: 35px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    height: 35px !important;
 }
